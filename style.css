@@ -2,6 +2,7 @@
 body {
     color: white;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-image: url(198a74017fd6f72c2caea1932bcf44b7.jpg);
 }
 
 #container {
@@ -12,7 +13,7 @@ body {
 }
 
 .cadastro {
-    background: linear-gradient(rgb(179, 27, 27),black);
+    background: linear-gradient(rgb(59, 56, 141),rgb(24, 23, 57));
     width: 400px;
     height: 300px;
     text-align: center;
@@ -32,10 +33,11 @@ body {
 
 p {
     height: 30px;
-    box-shadow: 1px 1px 1px ;
+    box-shadow: 2px 2px 2px black;
 }
 
 p:hover {
+    box-shadow: 5px 5px 5px  black ;
     transition: 1s;
     scale: 1.1;
 }
