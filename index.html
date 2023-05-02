@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="imagens/team.png" type="image/x-icon">
     <link rel="stylesheet" href="style.css">
     <title>Cadastro</title>
 </head>
@@ -13,20 +14,21 @@
             <h1>Cadastro</h1>
             <form>
                 <p>
-                    <label for="nome">Nome</label>
-                    <input type="text" name="nome" id="nome" autocomplete="off" required>
+                    <label for="nome"><ion-icon name="person-outline" id="icon"></ion-icon></label>
+                    <input type="text" name="nome" id="nome" autocomplete="off" required placeholder="nome...">
                 </p>
                 <p>
-                    <label for="email">Email</label>
-                    <input type="email" name="email" id="email" autocomplete="off">
+                    <label for="email"><ion-icon name="mail-outline" id="icon"></ion-icon></label>
+                    <input type="email" name="email" id="email" autocomplete="off" placeholder="email...">
                 </p>
                 <p>
-                    <label for="senha">Senha</label>
-                    <input type="password" name="senha" id="senha" >
+                    <label for="senha"><ion-icon name="lock-closed-outline" id="icon"></ion-icon></label>
+                    <input type="password" name="senha" id="senha" placeholder="senha..." >
                 </p>
                 <input type="submit" value="Login" class="avancar">
             </form>
         </div>
     </main>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
 </body>
 </html>
